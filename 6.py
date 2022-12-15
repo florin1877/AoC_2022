@@ -9,8 +9,6 @@ def check_marker(marker):
     return True
 
 def main():
-    cnt = []
-
     for idx in range(len(buffer) - 1):
         marker = buffer[idx:idx+4]
         message = buffer[idx:idx+14]
